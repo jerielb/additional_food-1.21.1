@@ -20,6 +20,11 @@ public class ModVillagers {
 	
 	public static final VillagerProfession JOLLIBEE_EMP = registerProfession("jollibee_emp", JOLLIBEE_EMP_POI_KEY);
 	
+	public static final RegistryKey<PointOfInterestType> STREET_FOOD_VENDOR_POI_KEY = registerPoiKey("street_food_vendor_poi");
+	public static final PointOfInterestType STREET_FOOD_VENDOR_EMP_POI = registerPOI("street_food_vendor_poi", Blocks.QUARTZ_PILLAR);
+	
+	public static final VillagerProfession STREET_FOOD_VENDOR = registerProfession("street_food_vendor", STREET_FOOD_VENDOR_POI_KEY);
+	
 	private static VillagerProfession registerProfession(String name, RegistryKey<PointOfInterestType> type) {
 		return Registry.register(Registries.VILLAGER_PROFESSION, Identifier.of(AdditionalFood.MOD_ID, name),
 				new VillagerProfession(name, entry -> entry.matchesKey(type), entry -> entry.matchesKey(type),

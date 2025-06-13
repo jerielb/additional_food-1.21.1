@@ -4,6 +4,10 @@
     {
       "id": "additional_food:jollibee_emp_poi",
       "required": false
+    },
+    {
+      "id": "additional_food:street_food_vendor",
+      "required": false
     }
   ]
 }
