@@ -25,6 +25,9 @@ public class ModItems {
 	// Jollibee Deserts
 	public static final Item PEACH_MANGO_PIE = registerItem("peach_mango_pie", new Item(new Item.Settings().food(ModFoodComponents.PEACH_MANGO_PIE)));
 	
+	// Street Food
+	public static final Item FISH_BALL = registerItem("fish_ball", new Item(new Item.Settings().food(ModFoodComponents.FISH_BALL)));
+	
 	// helper method
 	private static Item registerItem(String name, Item item) {
 		return Registry.register(Registries.ITEM, Identifier.of(AdditionalFood.MOD_ID, name), item);

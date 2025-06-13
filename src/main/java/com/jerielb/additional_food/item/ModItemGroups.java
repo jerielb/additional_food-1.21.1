@@ -34,6 +34,9 @@ public class ModItemGroups {
 						
 						// Deserts
 						entries.add(ModItems.PEACH_MANGO_PIE);
+						
+						// Street Food
+						entries.add(ModItems.FISH_BALL);
 					})
 					.build());
 	

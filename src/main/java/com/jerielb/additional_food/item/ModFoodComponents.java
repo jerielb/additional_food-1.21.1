@@ -20,4 +20,7 @@ public class ModFoodComponents {
 	
 	// Deserts
 	public static final FoodComponent PEACH_MANGO_PIE = new FoodComponent.Builder().nutrition(8).saturationModifier(0.3F).build();
+	
+	// Street Food
+	public static final FoodComponent FISH_BALL = new FoodComponent.Builder().nutrition(5).saturationModifier(0.3F).build();
 }
