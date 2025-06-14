@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "additional_food:block/quartz_block"
+    }
+  }
+}

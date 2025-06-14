@@ -2,6 +2,7 @@ package com.jerielb.additional_food.villager;
 
 import com.google.common.collect.ImmutableSet;
 import com.jerielb.additional_food.AdditionalFood;
+import com.jerielb.additional_food.block.ModBlocks;
 import net.fabricmc.fabric.api.object.builder.v1.world.poi.PointOfInterestHelper;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -16,12 +17,12 @@ import net.minecraft.world.poi.PointOfInterestType;
 
 public class ModVillagers {
 	public static final RegistryKey<PointOfInterestType> JOLLIBEE_EMP_POI_KEY = registerPoiKey("jollibee_emp_poi");
-	public static final PointOfInterestType JOLLIBEE_EMP_POI = registerPOI("jollibee_emp_poi", Blocks.CHISELED_QUARTZ_BLOCK);
+	public static final PointOfInterestType JOLLIBEE_EMP_POI = registerPOI("jollibee_emp_poi", ModBlocks.QUARTZ_BLOCK);
 	
 	public static final VillagerProfession JOLLIBEE_EMP = registerProfession("jollibee_emp", JOLLIBEE_EMP_POI_KEY);
 	
 	public static final RegistryKey<PointOfInterestType> STREET_FOOD_VENDOR_POI_KEY = registerPoiKey("street_food_vendor_poi");
-	public static final PointOfInterestType STREET_FOOD_VENDOR_EMP_POI = registerPOI("street_food_vendor_poi", Blocks.QUARTZ_PILLAR);
+	public static final PointOfInterestType STREET_FOOD_VENDOR_EMP_POI = registerPOI("street_food_vendor_poi", Blocks.REINFORCED_DEEPSLATE);
 	
 	public static final VillagerProfession STREET_FOOD_VENDOR = registerProfession("street_food_vendor", STREET_FOOD_VENDOR_POI_KEY);
 	

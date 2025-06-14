@@ -1,6 +1,7 @@
 package com.jerielb.additional_food.item;
 
 import com.jerielb.additional_food.AdditionalFood;
+import com.jerielb.additional_food.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -37,6 +38,9 @@ public class ModItemGroups {
 						
 						// Street Food
 						entries.add(ModItems.FISH_BALL);
+						
+						// Blocks
+						entries.add(ModBlocks.QUARTZ_BLOCK);
 					})
 					.build());
 	
