@@ -1,11 +1,14 @@
 package com.jerielb.additional_food;
 
 import com.jerielb.additional_food.block.ModBlocks;
+import com.jerielb.additional_food.entity.ModEntities;
+import com.jerielb.additional_food.entity.custom.JollibeeEntity;
 import com.jerielb.additional_food.item.ModItemGroups;
 import com.jerielb.additional_food.item.ModItems;
 import com.jerielb.additional_food.villager.ModVillagers;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.fabricmc.fabric.api.object.builder.v1.trade.TradeOfferHelper;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
@@ -82,5 +85,7 @@ public class AdditionalFood implements ModInitializer {
 					new ItemStack(ModItems.PEACH_MANGO_PIE, 1), 16, 32, 0.04f)
 			));
 		});
+		
+		FabricDefaultAttributeRegistry.register(ModEntities.JOLLIBEE, JollibeeEntity.createAttributes());
 	}
 }

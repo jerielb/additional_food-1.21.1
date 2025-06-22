@@ -26,5 +26,7 @@
   "painting.additional_food.jollibee.title": "Jollibee",
   "painting.additional_food.jollibee.author": "Jollibee",
   "painting.additional_food.jollibee_2.title": "Jollibee 2",
-  "painting.additional_food.jollibee_2.author": "Jollibee 2"
+  "painting.additional_food.jollibee_2.author": "Jollibee 2",
+  
+  "entity.additional_food.jollibee": "Jollibee"
 }
